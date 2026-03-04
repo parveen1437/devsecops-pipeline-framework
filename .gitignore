@@ -1,0 +1,29 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfplan
+.terraform/
+.terraform.lock.hcl
+crash.log
+
+# Secrets (NEVER commit these)
+.env
+.env.*
+*.pem
+*.key
+*credentials*
+*secret*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Reports
+trivy-report.json
+gitleaks-report.json
